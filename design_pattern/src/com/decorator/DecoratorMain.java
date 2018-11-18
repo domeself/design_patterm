@@ -3,7 +3,7 @@ package com.decorator;
 /**
  * 1.为了扩展功能
  * 2.动态扩展不修改原类代码
- * 3.嵌套式，热插拔
+ * 3.嵌套式，而且还能动态撤销。（继承不能做到这一点，继承的功能是静态的，不能动态增删。）
  */
 public class DecoratorMain {
     public static void main(String[] args) {
